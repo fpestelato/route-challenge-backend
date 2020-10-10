@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
-import { config } from 'config'
+import { config } from 'config';
 import { DatabaseConfig } from 'database.config';
 import { DeliveriesModule } from './deliveries/deliveries.module';
 
